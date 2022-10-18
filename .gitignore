@@ -34,7 +34,7 @@
 #VS folders
 
 *.vs
-#out/
+out/
 
 
 # Build results
