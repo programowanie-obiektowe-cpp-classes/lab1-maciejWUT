@@ -35,7 +35,7 @@ public:
     friend double operator*(Wektor2D vec_1, Wektor2D vec_2)
     {
         return vec_1.getX() * vec_2.getX() + vec_1.getY() * vec_2.getY();
-    }f
+    }
     
 	// Tutaj napisz implementacje klasy Wektor2D
 };
