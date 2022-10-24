@@ -1,4 +1,4 @@
-junie # Zaliczenie Laboratorium I
+junie cze# Zaliczenie Laboratorium I
 W (istniejącym już) pliku `Wektor2D.hpp` napisz implementację klasy `Wektor2D` w taki sposób, aby możliwe było wykonanie poniższego kodu:
 
 ```c++
