@@ -1,8 +1,6 @@
 class Wektor2D
 {
-private:
-    double x;
-    double y;
+
 
 public:
 
@@ -24,6 +22,10 @@ public:
 
     double getX() {return x;} 
     double getY() {return y;}
+
+private:
+    double x;
+    double y;
 
     
 	// Tutaj napisz implementacje klasy Wektor2D
