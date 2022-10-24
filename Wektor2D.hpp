@@ -5,6 +5,13 @@ private:
     double y;
 
 public:
+
+    Wektor2D() 
+    { 
+        x = 0.0;
+        y = 0.0;       
+    }
+
     Wektor2D(double X, double Y)
     {
         x = X;
