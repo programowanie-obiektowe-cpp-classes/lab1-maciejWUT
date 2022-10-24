@@ -1,11 +1,23 @@
 class Wektor2D
 {
-public:
-    float x;
-    float y;
+private:
+    double x;
+    double y;
 
-    float norm() const { return sqrt(x * x + y * y); };
-    void  print() const { std::cout << "x: " << x << " y: " << y << std::endl; };
-	
+public:
+    Wektor2D(double X, double Y)
+    {
+        x = X;
+        y = Y;
+    }
+
+    void setX(double X) { x = X; }
+
+    void setY(double Y) { y = Y; }
+
+    double getX() {return x;} 
+    double getY() {return y;}
+
+    
 	// Tutaj napisz implementacje klasy Wektor2D
 };
